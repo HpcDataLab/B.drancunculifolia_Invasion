@@ -19,4 +19,4 @@ mop <- raster(rastFile)
 mop_df <- as.data.frame(mop)
 
 # Generate a plot from tiff
-plot(mop)
+image(mop)
