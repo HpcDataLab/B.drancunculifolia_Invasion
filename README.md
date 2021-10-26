@@ -7,9 +7,10 @@ The genus Baccharis (Asteraceae) comprises over 440 species and is distributed a
 <p align="justify">
 A collection of 1,862 georeferenced occurrence data points of Baccharis dracunculifolia were used to build the distribution model. These points were downloaded from the GBIF platform www.gbif.org, accessed on May 09, 2021 (doi.org/10.15468/dl.9v6cw8), all of them located in South America.
   </p>
+  <img src = "figs/baccharis.png">
   
-  + [see original data](data/original/baccharis.csv)
-  + [see clean data](data/unique_clean/)
+  #### + [see original data](data/original/baccharis.csv)
+  #### + [see clean data](data/unique_clean/)
   
   
   
