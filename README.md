@@ -16,9 +16,9 @@ A collection of 1,862 georeferenced occurrence data points of Baccharis dracuncu
  ## 2. Cleaning Ocurrence Data 
 
  <p align="justify">
-  Many points were discarded because of overlap in the same pixel, thereby reducing autocorrelation effects (Hernandez et al. 2006, Phillips et al. 2006, Pearson et al. 2007, Thorn et al. 2009). The duplicated function of the base R package was used for this purpose. Thus, 558 occurrence points remained. C, effects of spatial autocorrelation were avoided by thinning observations with a distance of 50 km using the poThin function of the RSpatial library (OShea 2021). Additionally, a total of 209 occurrences were used for this study (see Fig.1-B). The occurrence points were partitioned into two subsets, 75% for model calibration and 25% for testing; the random method of the  ENMeval package was used to partition data (Muscarella et al. 2014).
+  Many points were discarded because of overlap in the same pixel, thereby reducing autocorrelation effects. The duplicated function of the base R package was used for this purpose. Effects of spatial autocorrelation were avoided by thinning observations with a distance of 50 km using the poThin function of the RSpatial library. The occurrence points were partitioned into two subsets, 75% for model calibration and 25% for testing; the random method of the  ENMeval package was used to partition data.
   </p>
   
-  
+  #### + [cleaning data source code](src/1.cleaning_data.R)
   
   #### + [clean data](data/unique_clean/)
