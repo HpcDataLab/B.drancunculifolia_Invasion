@@ -21,4 +21,4 @@ A collection of 1,862 georeferenced occurrence data points of Baccharis dracuncu
   
   #### + [cleaning data source code](src/1.cleaning_data.R)
   
-  #### + [clean data](data/unique_clean/)
+  #### + [clean and partitioned data](data/unique_clean/)
