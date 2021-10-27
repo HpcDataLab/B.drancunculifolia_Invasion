@@ -56,12 +56,6 @@ write.csv(Sp_joint,"Sp_joint.csv")
 
 
 # Split joint data in Train 75% and Test 25% data.
-# Generate random points over an extent
-
-bg <- dismo::randomPoints(bioVars[[1]], n = nrow(Sp_joint))
-jack <- get.jackknife(occs = uniqueLoc, bg)
-random <- get.randomkfold(occs = uniqueLoc, bg = bg, kfolds = 4)
-
 # Subset data in train and test
 testIndex <- sample(nrow(Sp_joint), nrow(Sp_joint)*0.25) # 25% for testing
 test <- Sp_joint[testIndex,]
